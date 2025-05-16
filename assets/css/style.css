@@ -28,7 +28,7 @@ html {
 
 body {
     background: var(--silver);
-    color: var(--black-bean)
+    color: var(--timberwolf)
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
 
 h2 {
     padding: 1rem;
-    color: var(--black-bean-2);
+    color: var(--auburn);
     font-size: 1.5rem;
     font-weight: 600;
     text-align: left;
@@ -213,4 +213,27 @@ form button:hover {
     font-size: 1rem;
     text-align: justify;
     font-weight: 600;
+}
+
+.contato_footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.video-background-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 100%;
 }
